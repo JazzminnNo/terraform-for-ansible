@@ -1,0 +1,15 @@
+# .tfbackend files - backend configuration files can have sensitive information.
+*.tfbackend
+
+# .tfplan - only for local use
+*.tfplan
+
+# local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
