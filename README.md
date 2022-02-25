@@ -1,5 +1,5 @@
 # terraform-for-ansible
-Shows a simple setup with Terraform for creating and provisioning servers for Ansible.
+Shows a simple setup with Terraform for creating and provisioning servers in Azure for Ansible.
 
 For running these terraform files, make sure you use a SSH key that does not have a passphrase, otherwise the local provisioner, which executes the Ansible playbook, fails. 
 
